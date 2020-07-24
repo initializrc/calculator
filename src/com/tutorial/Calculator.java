@@ -18,6 +18,8 @@ public class Calculator {
         System.out.println("Input Value 2 :  ");
         double value2 = input.nextDouble();
 
+        System.out.println("calculator application with java console");
+
         try{
             double result = new Calculator().getResult(value1,value2,operator);
             DecimalFormat decimalFormat = new DecimalFormat("#.##");
