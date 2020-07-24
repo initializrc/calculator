@@ -9,7 +9,7 @@ public class Calculator {
         System.out.println("=========================================");
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Inout Value 1 : ");
+        System.out.println("Input Value 1 : ");
         double value1 = input.nextDouble();
 
         System.out.println("Input Operator (+-*/%)");
@@ -17,8 +17,6 @@ public class Calculator {
 
         System.out.println("Input Value 2 :  ");
         double value2 = input.nextDouble();
-
-        System.out.println("calculator application with java console");
 
         try{
             double result = new Calculator().getResult(value1,value2,operator);
